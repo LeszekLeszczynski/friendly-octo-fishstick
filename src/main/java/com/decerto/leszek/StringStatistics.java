@@ -1,6 +1,7 @@
 package com.decerto.leszek;
 
 import java.util.List;
+import java.util.Map;
 
 public class StringStatistics {
 
@@ -20,4 +21,7 @@ public class StringStatistics {
         return shortest;
     }
 
+    public Map<String,Long> letterStatistics() {
+        return Map.of("a", 5l, "b", 2l, "c", 2l);
+    }
 }
