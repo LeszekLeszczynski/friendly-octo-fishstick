@@ -7,6 +7,11 @@
       <option name="url" value="https://nexus.decerto.pl/repository/decerto" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="tuw.snapshots" />
       <option name="name" value="tuw.snapshots" />
       <option name="url" value="https://svn.tuw.pl/archiva/repository/tuwsnapshots/" />
