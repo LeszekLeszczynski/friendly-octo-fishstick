@@ -10,12 +10,12 @@ class SmsGatewayClient {
         this.externalApi = externalApi;
     }
 
-    // TODO: ogranicz do max 10 równoległych wywołań
+    // TODO: limit to max 10 concurrent calls
     public void sendSms(String number, String message) {
         externalApi.send(number, message);
     }
 
-    // TODO: wyślij wszystkie, ale nie przekrocz limitu
+    // TODO: send all, but do not exceed the limit
     public void sendBatch(List<SmsRequest> requests) {
         throw new UnsupportedOperationException("Not implemented yet");
     }

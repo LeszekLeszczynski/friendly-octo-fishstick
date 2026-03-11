@@ -15,8 +15,8 @@ class CoverageAnalyzerTest {
     void shouldFindGapBetweenOverlappingAndNonContiguousPeriods() {
         var periods = List.of(
                 new CoveragePeriod(of(2024, 3, 1), of(2024, 5, 31)),
-                new CoveragePeriod(of(2024, 1, 1), of(2024, 2, 28)),   // nieposortowane
-                new CoveragePeriod(of(2024, 4, 1), of(2024, 7, 31)),   // nakłada się
+                new CoveragePeriod(of(2024, 1, 1), of(2024, 2, 28)),   // unsorted
+                new CoveragePeriod(of(2024, 4, 1), of(2024, 7, 31)),   // overlaps
                 new CoveragePeriod(of(2024, 9, 1), of(2024, 12, 31))
         );
 

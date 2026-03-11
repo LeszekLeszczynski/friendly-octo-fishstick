@@ -4,14 +4,14 @@ import java.util.List;
 
 class CoverageAnalyzer {
 
-    // TODO: znajdź luki w ciągłości ubezpieczenia
+    // TODO: find gaps in insurance coverage continuity
     List<CoveragePeriod> findGaps(List<CoveragePeriod> periods) {
         throw new UnsupportedOperationException("Not implemented yet");
     }
 
 
     /* BONUS
-     Masz tę samą logikę, ale polisy są w bazie — tabela POLICIES(id, client_id, start_date, end_date).
-     Napisz zapytanie SQL które znajdzie klientów mających co najmniej jedną lukę w 2024 roku.
+     Same logic, but policies are in the database — table POLICIES(id, client_id, start_date, end_date).
+     Write a SQL query that finds customers with at least one coverage gap in 2024.
      */
 }
